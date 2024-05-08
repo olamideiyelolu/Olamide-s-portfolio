@@ -1,0 +1,62 @@
+.gradient-background {
+    background: linear-gradient(300deg, #006aff, #4cff79, #72ebef);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gege{
+    border-radius: 50%;
+  }
+
+  .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.p-text{
+    font-size: 22px;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.first-line-indent {
+    text-indent: 2.5em; /* Adjust the value to suit your design */
+}
+
+
+.pic{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+}
+
+.footerr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
